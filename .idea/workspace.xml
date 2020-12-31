@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="005d917c-0d1f-411d-9977-1766b82f51b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helper.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609400885130</updated>
       <workItem from="1609400886709" duration="2645000" />
-      <workItem from="1609403571471" duration="976000" />
+      <workItem from="1609403571471" duration="3463000" />
     </task>
     <task id="LOCAL-00001" summary="update index.html">
       <created>1609401567294</created>
@@ -70,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609403171816</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="删除无用文件">
+      <created>1609404598814</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609404598814</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,7 +82,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update index.html" />
     <MESSAGE value="配置CSS 和JS" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置CSS 和JS" />
+    <MESSAGE value="删除无用文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除无用文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Inspections" timestamp="1609401889615">
@@ -90,10 +94,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="435" y="162" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1609401250907" />
-    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1609403170644">
+    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1609404597763">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1609403170644" />
+    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1609404597763" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1609403936498">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
