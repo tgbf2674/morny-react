@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="005d917c-0d1f-411d-9977-1766b82f51b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609400885130</updated>
       <workItem from="1609400886709" duration="2645000" />
-      <workItem from="1609403571471" duration="6190000" />
+      <workItem from="1609403571471" duration="9595000" />
     </task>
     <task id="LOCAL-00001" summary="update index.html">
       <created>1609401567294</created>
@@ -86,7 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609476274267</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="添加svg文件">
+      <created>1609476387880</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609476387880</updated>
+    </task>
+    <task id="LOCAL-00007" summary="eject">
+      <created>1609476528222</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609476528222</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +117,9 @@
     <MESSAGE value="删除无用文件" />
     <MESSAGE value="导航栏布局搞定" />
     <MESSAGE value="添加Svg文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加Svg文件" />
+    <MESSAGE value="添加svg文件" />
+    <MESSAGE value="eject" />
+    <option name="LAST_COMMIT_MESSAGE" value="eject" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Inspections" timestamp="1609401889615">
@@ -113,10 +134,26 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="435" y="162" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1609401250907" />
-    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1609476387132">
+    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1609476526809">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1609476387132" />
+    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1609476526809" />
+    <state width="872" height="169" key="GridCell.Tab.0.bottom" timestamp="1609483375257">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="872" height="169" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1609483375257" />
+    <state width="872" height="169" key="GridCell.Tab.0.center" timestamp="1609483375257">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="872" height="169" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1609483375257" />
+    <state width="872" height="169" key="GridCell.Tab.0.left" timestamp="1609483375257">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="872" height="169" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1609483375257" />
+    <state width="872" height="169" key="GridCell.Tab.0.right" timestamp="1609483375257">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="872" height="169" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1609483375257" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1609403936498">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
