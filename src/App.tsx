@@ -9,12 +9,17 @@ import Money from './views/Money';
 import Tags from './views/Tags';
 import Statistics from './views/statistics';
 import NoMatch from './views/NoMatch';
+import styled from 'styled-components';
 
+const AppWrapper= styled.div`
+color: #333;
 
+`
 
 
 function App() {
     return (
+        <AppWrapper>
         <Router>
 
                     <Switch>
@@ -33,6 +38,7 @@ function App() {
                         </Route>
                     </Switch>
         </Router>
+        </AppWrapper>
     );
 }
 
