@@ -8,6 +8,7 @@ import {
 import Money from './views/Money';
 import Tags from './views/Tags';
 import Statistics from './views/statistics';
+import NoMatch from './views/NoMatch';
 
 
 
@@ -31,17 +32,9 @@ function App() {
                             <NoMatch/>
                         </Route>
                     </Switch>
-
         </Router>
     );
 }
-
-function NoMatch() {
-    return (
-        <div>页面不存在，输出地址了吧！</div>
-    );
-}
-
 
 
 
