@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="005d917c-0d1f-411d-9977-1766b82f51b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +25,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/icons" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
     <property name="ts.external.directory.path" value="C:\Users\Administrator\Desktop\练习demo\morny-react\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\练习demo\morny-react\src\icons" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\练习demo\morny-react\src\components" />
     </key>
@@ -50,7 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609400885130</updated>
       <workItem from="1609400886709" duration="2645000" />
-      <workItem from="1609403571471" duration="3463000" />
+      <workItem from="1609403571471" duration="6190000" />
     </task>
     <task id="LOCAL-00001" summary="update index.html">
       <created>1609401567294</created>
@@ -73,7 +72,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609404598814</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="导航栏布局搞定">
+      <created>1609407080462</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609407080462</updated>
+    </task>
+    <task id="LOCAL-00005" summary="添加Svg文件">
+      <created>1609476274267</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609476274267</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,24 +96,34 @@
     <MESSAGE value="update index.html" />
     <MESSAGE value="配置CSS 和JS" />
     <MESSAGE value="删除无用文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除无用文件" />
+    <MESSAGE value="导航栏布局搞定" />
+    <MESSAGE value="添加Svg文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加Svg文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Inspections" timestamp="1609401889615">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="26" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1609401889615" />
+    <state x="0" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609475712387">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="0" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1609475712387" />
     <state x="435" y="162" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609401250907">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="435" y="162" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1609401250907" />
-    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1609404597763">
+    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1609476366139">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1609404597763" />
+    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1609476366139" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1609403936498">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1609403936498" />
+    <state x="118" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1609429005406">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="118" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1609429005406" />
   </component>
 </project>
