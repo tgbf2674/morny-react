@@ -24,7 +24,7 @@ const TagSection = styled.section`
     color: #666;
     margin-top: 8px;
     }
-`
+`;
 
 const NoteSection = styled.section`
   background: #f5f5f5;
@@ -42,13 +42,88 @@ const NoteSection = styled.section`
   border: none;
   }
   }
-`
+`;
 const CategorySection = styled.section`
-
-`
+font-size: 24px;
+   > ul {
+   display: flex;
+   background: #c4c4c4;
+   > li{
+   width: 50%;
+   text-align: center;
+   padding: 16px 0;
+   position: relative;
+   &.selected::after{
+   content: '';
+   display: block;
+   height: 3px;
+   background: #1296db;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   left: 0;
+   }
+   }
+   }
+`;
 const NumberPadSection = styled.section`
-
-`
+    display: flex;
+    flex-direction: column;
+    > .output{
+    background: white;
+    font-size: 36px;
+    line-height: 72px;
+    text-align: right;
+    padding: 0 16px;
+    box-shadow: inset 0 -5px 5px -5px rgba(0,0,0,0.25), inset 0 5px 5px -5px rgba(0,0,0,0.25);
+    }
+    > .pad{
+   
+   
+    > button{
+    font-size: 18px;
+    float: left;
+    width: 25%;
+    height: 64px;
+    border: none;
+    &.ok{
+    height: 128px;
+    float: right;
+    }
+    &.zero{
+    width:50%;
+    }
+    &:nth-child(1){
+    background: #f2f2f2;
+    }
+    &:nth-child(2),
+    &:nth-child(5) {
+     background: #e0e0e0;
+    }
+    &:nth-child(3),
+    &:nth-child(6),
+     &:nth-child(9){
+     background: #d3d3d3;
+    }
+    &:nth-child(4),
+    &:nth-child(7),
+     &:nth-child(10){
+     background: #c1c1c1;
+    }
+    &:nth-child(8),
+    &:nth-child(11),
+     &:nth-child(13){
+     background: #b8b8b8;
+    }
+    &:nth-child(12){
+    background: #1296db;
+    }
+    &:nth-child(14){
+    background: #9a9a9a;
+    }
+    }
+    }
+`;
 
 
 
@@ -71,13 +146,13 @@ function Money() {
         </NoteSection>
         <CategorySection>
             <ul>
-                <li>支出</li>
+                <li className="selected">支出</li>
                 <li>收入</li>
             </ul>
         </CategorySection>
         <NumberPadSection>
-            <div>100</div>
-            <div>
+            <div className="output">100</div>
+            <div className="pad clearfix">
                 <button>1</button>
                 <button>2</button>
                 <button>3</button>
@@ -89,9 +164,9 @@ function Money() {
                 <button>7</button>
                 <button>8</button>
                 <button>9</button>
-                <button>OK</button>
-                <button>0</button>
-                <button>.</button>
+                <button className="ok">OK</button>
+                <button className="zero">0</button>
+                <button className='dot'>.</button>
             </div>
         </NumberPadSection>
     </Layout>);

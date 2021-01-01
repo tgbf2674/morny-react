@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="005d917c-0d1f-411d-9977-1766b82f51b0" name="Default Changelist" comment="">
+    <list default="true" id="005d917c-0d1f-411d-9977-1766b82f51b0" name="Default Changelist" comment="Money.tsx 之 收入和支出 UI 完成">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Money.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money.tsx" afterDir="false" />
     </list>
@@ -30,7 +29,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/icons" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="stylesheet.code.style.group" />
     <property name="ts.external.directory.path" value="C:\Users\Administrator\Desktop\练习demo\morny-react\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -52,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609400885130</updated>
       <workItem from="1609400886709" duration="2645000" />
-      <workItem from="1609403571471" duration="17422000" />
+      <workItem from="1609403571471" duration="19938000" />
     </task>
     <task id="LOCAL-00001" summary="update index.html">
       <created>1609401567294</created>
@@ -152,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609504836943</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Money.tsx 之 备注 UI 完成">
+      <created>1609505343874</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609505343874</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +179,9 @@
     <MESSAGE value="修复Nav 点击区域小的问题" />
     <MESSAGE value="当前路由图标自动高亮" />
     <MESSAGE value="Money.tsx 之 TagSection UI 完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="Money.tsx 之 TagSection UI 完成" />
+    <MESSAGE value="Money.tsx 之 备注 UI 完成" />
+    <MESSAGE value="Money.tsx 之 收入和支出 UI 完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="Money.tsx 之 收入和支出 UI 完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Inspections" timestamp="1609401889615">
@@ -188,10 +196,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="435" y="162" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1609401250907" />
-    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1609504836046">
+    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1609506076653">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1609504836046" />
+    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1609506076653" />
     <state width="872" height="169" key="GridCell.Tab.0.bottom" timestamp="1609483375257">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -208,10 +216,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="872" height="169" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1609483375257" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1609487134409">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1609506158963">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1609487134409" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1609506158963" />
+    <state x="106" y="159" key="run.anything.popup" timestamp="1609506316565">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="106" y="159" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1609506316565" />
     <state x="118" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1609496227931">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
