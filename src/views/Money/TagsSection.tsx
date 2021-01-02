@@ -64,4 +64,5 @@ const TagsSection: React.FC=()=>{
     )
 };
 
+// @ts-ignore
 export {TagsSection};
