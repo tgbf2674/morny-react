@@ -34,35 +34,39 @@ const Wrapper = styled.section`
     }
 `;
 
-const TagsSection: React.FC=()=>{
-    const [tags,setTags] = useState<string[]>(['衣','食','住','行']);
-    const [selectedTags,setSelectedTags] = useState<String[]>([]);
-    const onAddTag=()=>{
-      const tagName = window.prompt('新标签名称为');
-       if(tagName!==null){
-           setTags([...tags,tagName])
-       }
+type Props = { value: string[];
+onChange: (selected: string[])=>void;
+}
+const TagsSection: React.FC<Props> = (props) => {
+    const [tags, setTags] = useState<string[]>(['衣', '食', '住', '行']);
+    const selectedTags = props.value;
+    const onAddTag = () => {
+        const tagName = window.prompt('新标签名称为');
+        if (tagName !== null) {
+            setTags([...tags, tagName]);
+        }
     };
-    const onToggleTag=(tag: string)=>{
-      const index = selectedTags.indexOf(tag);
-      if(index >=0 ){
-          setSelectedTags(selectedTags.filter(t => t!== tag));
-          //如果tag已被选中，就复制所有没被选中的tag,作为新的selectedTag
-      }else{
-          setSelectedTags([...selectedTags,tag])
-      }
+    const onToggleTag = (tag: string) => {
+        const index = selectedTags.indexOf(tag);
+        if (index >= 0) {
+            props.onChange(selectedTags.filter(t => t !== tag));
+            //如果tag已被选中，就复制所有没被选中的tag,作为新的selectedTag
+        } else {
+            props.onChange([...selectedTags, tag]);
+        }
     };
-    const getClass =(tag: string)=> selectedTags.indexOf(tag) >=0 ? 'selected' : '';
+    const getClass = (tag: string) => selectedTags.indexOf(tag) >= 0 ? 'selected' : '';
     return (
-       <Wrapper>
-           <ol>
-               {tags.map(tag =>
-                   <li key={tag} onClick={()=>{onToggleTag(tag)}} className={getClass(tag)}>{tag}</li>)}
-           </ol>
-           <button onClick={onAddTag}>新增标签</button>
-       </Wrapper>
-    )
+        <Wrapper>
+            <ol>
+                {tags.map(tag =>
+                    <li key={tag} onClick={() => {onToggleTag(tag);}} className={getClass(tag)}>{tag}</li>)}
+            </ol>
+            <button onClick={onAddTag}>新增标签</button>
+        </Wrapper>
+    );
 };
+
 
 // @ts-ignore
 export {TagsSection};
