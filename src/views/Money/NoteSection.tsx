@@ -32,10 +32,13 @@ const NoteSection:React.FC = ()=>{
         <Wrapper>
             <label>
                 <span>备注</span>
-                <input placeholder="在此添加备注" type="text" ref={refInput} defaultValue={note} onBlur={onBlur} />
+                <input placeholder="在此添加备注" type="text"
+                       ref={refInput}
+                       defaultValue={note}
+                       onBlur={onBlur} />
             </label>
         </Wrapper>
     )
-}
+};
 
 export {NoteSection}

@@ -11,6 +11,9 @@ const Wrapper = styled.div`
 
 const Main = styled.div`
 flex-grow: 1;
+&::-webkit-scrollbar{
+display: none;
+}
 `;
 
 const Layout=(props: any)=>{
