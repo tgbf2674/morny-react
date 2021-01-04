@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="005d917c-0d1f-411d-9977-1766b82f51b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tag.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/useTags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/useTags.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +54,7 @@
       <updated>1609400885130</updated>
       <workItem from="1609400886709" duration="2645000" />
       <workItem from="1609403571471" duration="22953000" />
-      <workItem from="1609559500146" duration="29983000" />
+      <workItem from="1609559500146" duration="30720000" />
     </task>
     <task id="LOCAL-00001" summary="update index.html">
       <created>1609401567294</created>
@@ -326,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609764018065</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="编辑tag 名">
+      <created>1609764249596</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1609764249596</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,10 +383,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="435" y="162" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1609728294050" />
-    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1609764017348">
+    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1609764248885">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1609764017348" />
+    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1609764248885" />
     <state width="872" height="169" key="GridCell.Tab.0.bottom" timestamp="1609559436911">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
