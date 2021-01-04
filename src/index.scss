@@ -33,8 +33,14 @@ button{
   height:1em;
   display: inline-block;
 }
-.clearfix{
+.clearfix::after{
   content: '';
   display: block;
   clear: both;
+}
+
+.online{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;;
 }

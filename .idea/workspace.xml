@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="005d917c-0d1f-411d-9977-1766b82f51b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Tags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Tags.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/useTags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/useTags.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +31,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\练习demo\morny-react\src\icons" />
       <recent name="C:\Users\Administrator\Desktop\练习demo\morny-react\src" />
       <recent name="C:\Users\Administrator\Desktop\练习demo\morny-react\src\components" />
     </key>
@@ -54,7 +51,7 @@
       <updated>1609400885130</updated>
       <workItem from="1609400886709" duration="2645000" />
       <workItem from="1609403571471" duration="22953000" />
-      <workItem from="1609559500146" duration="19179000" />
+      <workItem from="1609559500146" duration="21007000" />
     </task>
     <task id="LOCAL-00001" summary="update index.html">
       <created>1609401567294</created>
@@ -252,14 +249,27 @@
       <option name="project" value="LOCAL" />
       <updated>1609728559268</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="抽离useTags函数">
+      <created>1609728880445</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1609728880445</updated>
+    </task>
+    <task id="LOCAL-00030" summary="tags list 样式">
+      <created>1609730569964</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1609730569964</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="删除无用文件" />
     <MESSAGE value="导航栏布局搞定" />
     <MESSAGE value="添加Svg文件" />
     <MESSAGE value="添加svg文件" />
@@ -284,7 +294,8 @@
     <MESSAGE value="收集表单数据" />
     <MESSAGE value="重构收集表单数据" />
     <MESSAGE value="抽离useTags函数" />
-    <option name="LAST_COMMIT_MESSAGE" value="抽离useTags函数" />
+    <MESSAGE value="tags list 样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="tags list 样式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Inspections" timestamp="1609401889615">
@@ -299,10 +310,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="435" y="162" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1609728294050" />
-    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1609728558472">
+    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1609730568742">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1609728558472" />
+    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1609730568742" />
     <state width="872" height="169" key="GridCell.Tab.0.bottom" timestamp="1609559436911">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
