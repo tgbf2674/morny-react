@@ -7,12 +7,12 @@ try{ importAll(require.context('icons',true,/\.svg$/))} catch (error) {
 
 }
 type Props ={
-    name : string
+    name?: string
 }
 const Icon=(props: Props)=>{
     return (
         <svg className="icon">
-            <use xlinkHref={'#'+props.name}/>
+            {props.name && <use xlinkHref={'#'+props.name}/>}
         </svg>
     )
 }
