@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="005d917c-0d1f-411d-9977-1766b82f51b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hooks/useUpdate.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useRocords.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/morny-react.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/morny-react.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/createId.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/createId.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/useTags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/useTags.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tag.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/useTags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useTags.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Money.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Tags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Tags.tsx" afterDir="false" />
     </list>
@@ -38,6 +38,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\练习demo\morny-react\src\hooks" />
       <recent name="C:\Users\Administrator\Desktop\练习demo\morny-react\src\icons" />
       <recent name="C:\Users\Administrator\Desktop\练习demo\morny-react\src" />
       <recent name="C:\Users\Administrator\Desktop\练习demo\morny-react\src\components" />
@@ -58,7 +59,7 @@
       <updated>1609400885130</updated>
       <workItem from="1609400886709" duration="2645000" />
       <workItem from="1609403571471" duration="22953000" />
-      <workItem from="1609559500146" duration="37882000" />
+      <workItem from="1609559500146" duration="40715000" />
     </task>
     <task id="LOCAL-00001" summary="update index.html">
       <created>1609401567294</created>
@@ -354,14 +355,20 @@
       <option name="project" value="LOCAL" />
       <updated>1609769369413</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="tags 数据持久化">
+      <created>1609773777126</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1609773777126</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="当前路由图标自动高亮" />
     <MESSAGE value="Money.tsx 之 TagSection UI 完成" />
     <MESSAGE value="Money.tsx 之 备注 UI 完成" />
     <MESSAGE value="Money.tsx 之 收入和支出 UI 完成" />
@@ -386,7 +393,8 @@
     <MESSAGE value="编辑tag 名" />
     <MESSAGE value="删除tag" />
     <MESSAGE value="点击回退" />
-    <option name="LAST_COMMIT_MESSAGE" value="点击回退" />
+    <MESSAGE value="tags 数据持久化" />
+    <option name="LAST_COMMIT_MESSAGE" value="tags 数据持久化" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Inspections" timestamp="1609401889615">
@@ -401,10 +409,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="435" y="162" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1609728294050" />
-    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1609769368512">
+    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1609773775962">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1609769368512" />
+    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1609773775962" />
     <state width="872" height="169" key="GridCell.Tab.0.bottom" timestamp="1609559436911">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
