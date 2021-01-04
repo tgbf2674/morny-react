@@ -4,8 +4,11 @@
     <list default="true" id="005d917c-0d1f-411d-9977-1766b82f51b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tag.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icon.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/useTags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/useTags.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,7 @@
       <updated>1609400885130</updated>
       <workItem from="1609400886709" duration="2645000" />
       <workItem from="1609403571471" duration="22953000" />
-      <workItem from="1609559500146" duration="30720000" />
+      <workItem from="1609559500146" duration="34091000" />
     </task>
     <task id="LOCAL-00001" summary="update index.html">
       <created>1609401567294</created>
@@ -336,14 +339,20 @@
       <option name="project" value="LOCAL" />
       <updated>1609764249596</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="删除tag">
+      <created>1609765003920</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1609765003920</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="创建 Views 目录" />
     <MESSAGE value="修复Nav 点击区域小的问题" />
     <MESSAGE value="当前路由图标自动高亮" />
     <MESSAGE value="Money.tsx 之 TagSection UI 完成" />
@@ -368,7 +377,8 @@
     <MESSAGE value="创建单独的Button 组件，Input 组件" />
     <MESSAGE value="Tag.tsx的样式完成" />
     <MESSAGE value="编辑tag 名" />
-    <option name="LAST_COMMIT_MESSAGE" value="编辑tag 名" />
+    <MESSAGE value="删除tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除tag" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Inspections" timestamp="1609401889615">
@@ -383,10 +393,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="435" y="162" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1609728294050" />
-    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1609764248885">
+    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1609765003173">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1609764248885" />
+    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1609765003173" />
     <state width="872" height="169" key="GridCell.Tab.0.bottom" timestamp="1609559436911">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

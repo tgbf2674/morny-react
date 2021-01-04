@@ -21,19 +21,22 @@ const useTags=()=> {
             return result;
         };
     const updateTag= (id:number,obj: {name:string })=>{
-        //获取你要改的tag 的下标
+        // 获取你要改的 tag 的下标
         const index = findTagIndex(id);
-        //深拷贝 tags 得到clone
+        // 深拷贝 tags 得到 tagsClone
         const tagsClone = JSON.parse(JSON.stringify(tags));
-        //把tagsClone 的第index 删掉，换成{id：id,name: obj.name}
-        tagsClone.splice(index,1,{id,name:obj.name});
+        // 把 tagsClone 的第 index 删掉，换成 {id:id, name: obj.name}
+        tagsClone.splice(index, 1, {id: id, name: obj.name});
         setTags(tagsClone);
     };
     const deleteTag = (id:number)=>{
+        // 获取你要删的 tag 的下标
         const index = findTagIndex(id);
+        // 深拷贝 tags 得到 tagsClone
         const tagsClone = JSON.parse(JSON.stringify(tags));
-        tagsClone.splice(index,1);
-        setTags(tagsClone)
+        // 把 tagsClone 的第 index 删掉
+        tagsClone.splice(index, 1);
+        setTags(tagsClone);
     };
     return {
         tags,
