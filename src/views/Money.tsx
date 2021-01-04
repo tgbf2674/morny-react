@@ -23,8 +23,7 @@ const defaultFormData = {
 
 function Money() {
     const [selected, setSelected] = useState(defaultFormData);
-    const {records, addRecord} = useRecords();
-    console.log(records);
+    const {addRecord} = useRecords();
     const onChange = (obj: Partial<typeof selected>) => {
         setSelected({
             ...selected,
@@ -32,9 +31,10 @@ function Money() {
         });
     };
     const submit = () => {
-        addRecord(selected);
-        alert('保存成功');
-        setSelected(defaultFormData)
+        if(addRecord(selected)){
+            alert('保存成功');
+            setSelected(defaultFormData)
+        }
     };
     return (
         <MyLayout>

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import React from 'react';
 import {useTags} from '../../hooks/useTags';
-import {createId} from 'lib/createId';
 
 
 const Wrapper = styled.section`
@@ -59,7 +58,7 @@ const TagsSection: React.FC<Props> = (props) => {
                 {tags.map(tag =>
                     <li key={tag.id} onClick={() => {onToggleTag(tag.id);}} className={getClass(tag.id)}>{tag.name}</li>)}
             </ol>
-            <button>新增标签</button>
+            <button onClick={addTag}>新增标签</button>
         </Wrapper>
     );
 };
