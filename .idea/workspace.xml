@@ -4,8 +4,12 @@
     <list default="true" id="005d917c-0d1f-411d-9977-1766b82f51b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useTags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useTags.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Money.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Money/NumberPadSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/NumberPadSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Money/CategorySection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/CategorySection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/statistics.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/statistics.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -365,14 +369,20 @@
       <option name="project" value="LOCAL" />
       <updated>1609777752329</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="解决无法输入点的bug">
+      <created>1609816524778</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1609816524778</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Money.tsx 之 备注 UI 完成" />
     <MESSAGE value="Money.tsx 之 收入和支出 UI 完成" />
     <MESSAGE value="Money.tsx 之 数字面板 UI 完成" />
     <MESSAGE value="Money.tsx 之 UI 完成" />
@@ -397,7 +407,8 @@
     <MESSAGE value="点击回退" />
     <MESSAGE value="tags 数据持久化" />
     <MESSAGE value="add record" />
-    <option name="LAST_COMMIT_MESSAGE" value="add record" />
+    <MESSAGE value="解决无法输入点的bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决无法输入点的bug" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Inspections" timestamp="1609401889615">
@@ -412,10 +423,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="435" y="162" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1609728294050" />
-    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1609778132431">
+    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1609816523964">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1609778132431" />
+    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1609816523964" />
     <state width="872" height="169" key="GridCell.Tab.0.bottom" timestamp="1609559436911">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

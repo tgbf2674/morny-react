@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import styled from 'styled-components';
 import {TagsSection} from './Money/TagsSection';
 import {NoteSection} from './Money/NoteSection';
@@ -12,6 +12,7 @@ const MyLayout = styled(Layout)`
 display: flex;
 flex-direction: column;
 `;
+
 type Category = '-' | '+'
 
 const defaultFormData = {
@@ -20,6 +21,9 @@ const defaultFormData = {
     category: '-' as Category,
     amount: 0,
 };
+const CategoryWrapper  =styled.div`
+  background: #c4c4c4;
+`;
 
 function Money() {
     const [selected, setSelected] = useState(defaultFormData);
@@ -36,11 +40,7 @@ function Money() {
             setSelected(defaultFormData)
         }
     };
-    useEffect(()=>{
-        setTimeout(()=>{
-            setSelected({...selected,amount: 1000})
-        },3000)
-    })
+
     return (
         <MyLayout>
             {JSON.stringify(selected)}
@@ -48,7 +48,10 @@ function Money() {
             />
             <NoteSection value={selected.note} onChange={(note) => onChange({note})}
             />
+            <CategoryWrapper>
             <CategorySection value={selected.category} onChange={(category) => onChange({category})}/>
+            </CategoryWrapper>
+
             <NumberPadSection value={selected.amount} onChange={(amount) => onChange({amount})}
                               onOk={submit}
             />
