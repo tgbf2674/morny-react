@@ -36,6 +36,11 @@ function Money() {
             setSelected(defaultFormData)
         }
     };
+    useEffect(()=>{
+        setTimeout(()=>{
+            setSelected({...selected,amount: 1000})
+        },3000)
+    })
     return (
         <MyLayout>
             {JSON.stringify(selected)}
