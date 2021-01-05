@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="005d917c-0d1f-411d-9977-1766b82f51b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/scripts/deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Money.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,8 @@
       <workItem from="1609400886709" duration="2645000" />
       <workItem from="1609403571471" duration="22953000" />
       <workItem from="1609559500146" duration="41162000" />
+      <workItem from="1609826157380" duration="249000" />
+      <workItem from="1609826422965" duration="746000" />
     </task>
     <task id="LOCAL-00001" summary="update index.html">
       <created>1609401567294</created>
@@ -393,14 +396,20 @@
       <option name="project" value="LOCAL" />
       <updated>1609823124046</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="优化滚动逻辑">
+      <created>1609824159584</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1609824159584</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完成标签的选择和新增" />
     <MESSAGE value="完成备注功能" />
     <MESSAGE value="category 切换功能完成" />
     <MESSAGE value="numberPad 功能 work in process" />
@@ -425,7 +434,8 @@
     <MESSAGE value="展示所有记录" />
     <MESSAGE value="展示分组记录" />
     <MESSAGE value="消除警告" />
-    <option name="LAST_COMMIT_MESSAGE" value="消除警告" />
+    <MESSAGE value="优化滚动逻辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化滚动逻辑" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Inspections" timestamp="1609401889615">
@@ -440,10 +450,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="435" y="162" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1609728294050" />
-    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1609823123056">
+    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1609824158470">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1609823123056" />
+    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1609824158470" />
     <state width="872" height="169" key="GridCell.Tab.0.bottom" timestamp="1609559436911">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
