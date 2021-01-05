@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components';
 import {TagsSection} from './Money/TagsSection';
 import {NoteSection} from './Money/NoteSection';
